@@ -13,6 +13,7 @@
 		5D0FB9C02152111C00138B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0FB9BE2152111C00138B08 /* LaunchScreen.storyboard */; };
 		5D0FB9CB2152111C00138B08 /* FeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0FB9CA2152111C00138B08 /* FeedTests.swift */; };
 		5D0FB9D62152111D00138B08 /* FeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0FB9D52152111D00138B08 /* FeedUITests.swift */; };
+		5DE03E512152173A00B7819A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE03E502152173A00B7819A /* PhotosViewController.swift */; };
 		846AA876470924942672828F /* Pods_FeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554738D806E1D06D9C3CB41 /* Pods_FeedTests.framework */; };
 		99D6A2E470AC9F9F1E47634C /* Pods_Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1255FF3B4A774296A48E2E8 /* Pods_Feed.framework */; };
 		B1E81B29EC6238DEA38495CF /* Pods_FeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 266C4307461FDD9FA11230FE /* Pods_FeedUITests.framework */; };
@@ -51,6 +52,7 @@
 		5D0FB9D12152111D00138B08 /* FeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0FB9D52152111D00138B08 /* FeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUITests.swift; sourceTree = "<group>"; };
 		5D0FB9D72152111D00138B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DE03E502152173A00B7819A /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		AFE4C8D1299FA16B7F37D963 /* Pods-Feed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feed/Pods-Feed.release.xcconfig"; sourceTree = "<group>"; };
 		B1255FF3B4A774296A48E2E8 /* Pods_Feed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Feed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B526661CCA1FDBDC542D0AFA /* Pods-FeedTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FeedTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FeedTests/Pods-FeedTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		5D0FB9B42152111B00138B08 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				5DE03E502152173A00B7819A /* PhotosViewController.swift */,
 				5D0FB9B52152111B00138B08 /* AppDelegate.swift */,
 				5D0FB9B92152111B00138B08 /* Main.storyboard */,
 				5D0FB9BC2152111C00138B08 /* Assets.xcassets */,
@@ -375,6 +378,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D0FB9B62152111B00138B08 /* AppDelegate.swift in Sources */,
+				5DE03E512152173A00B7819A /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
