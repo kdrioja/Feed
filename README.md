@@ -30,7 +30,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-https://raw.githubusercontent.com/kdrioja/Feed/master/feed1.gif
+https://i.imgur.com/IaUFDMq.gif
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -85,7 +85,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+https://i.imgur.com/7JU6L1X.gif
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
