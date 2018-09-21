@@ -13,6 +13,7 @@
 		5D0FB9C02152111C00138B08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D0FB9BE2152111C00138B08 /* LaunchScreen.storyboard */; };
 		5D0FB9CB2152111C00138B08 /* FeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0FB9CA2152111C00138B08 /* FeedTests.swift */; };
 		5D0FB9D62152111D00138B08 /* FeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0FB9D52152111D00138B08 /* FeedUITests.swift */; };
+		5DC70AA52155A0EF0040C1BA /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC70AA42155A0EF0040C1BA /* PhotoDetailsViewController.swift */; };
 		5DE03E512152173A00B7819A /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE03E502152173A00B7819A /* PhotosViewController.swift */; };
 		5DE03E53215224B000B7819A /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DE03E52215224B000B7819A /* PhotoCell.swift */; };
 		846AA876470924942672828F /* Pods_FeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4554738D806E1D06D9C3CB41 /* Pods_FeedTests.framework */; };
@@ -53,6 +54,7 @@
 		5D0FB9D12152111D00138B08 /* FeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D0FB9D52152111D00138B08 /* FeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedUITests.swift; sourceTree = "<group>"; };
 		5D0FB9D72152111D00138B08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DC70AA42155A0EF0040C1BA /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		5DE03E502152173A00B7819A /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		5DE03E52215224B000B7819A /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		AFE4C8D1299FA16B7F37D963 /* Pods-Feed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feed.release.xcconfig"; path = "Pods/Target Support Files/Pods-Feed/Pods-Feed.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,7 +118,7 @@
 		5D0FB9B42152111B00138B08 /* Feed */ = {
 			isa = PBXGroup;
 			children = (
-				5DE03E502152173A00B7819A /* PhotosViewController.swift */,
+				5DC70AA62155A0F30040C1BA /* ViewControllers */,
 				5DE03E52215224B000B7819A /* PhotoCell.swift */,
 				5D0FB9B52152111B00138B08 /* AppDelegate.swift */,
 				5D0FB9B92152111B00138B08 /* Main.storyboard */,
@@ -143,6 +145,15 @@
 				5D0FB9D72152111D00138B08 /* Info.plist */,
 			);
 			path = FeedUITests;
+			sourceTree = "<group>";
+		};
+		5DC70AA62155A0F30040C1BA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5DE03E502152173A00B7819A /* PhotosViewController.swift */,
+				5DC70AA42155A0EF0040C1BA /* PhotoDetailsViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		ACECF0A99FDF69A1D30D9A80 /* Frameworks */ = {
@@ -380,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DC70AA52155A0EF0040C1BA /* PhotoDetailsViewController.swift in Sources */,
 				5D0FB9B62152111B00138B08 /* AppDelegate.swift in Sources */,
 				5DE03E53215224B000B7819A /* PhotoCell.swift in Sources */,
 				5DE03E512152173A00B7819A /* PhotosViewController.swift in Sources */,

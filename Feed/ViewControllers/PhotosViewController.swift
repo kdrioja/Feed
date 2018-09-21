@@ -20,7 +20,6 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
     var posts: [[String: Any]] = [] //Will store the posts retrieved from the network request
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -97,4 +96,15 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
             cell.photoImageView.af_setImage(withURL: url!)
         }
         return cell
-    }}
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        
+        if let indexPath = tableView.indexPath(for: cell) {
+            let post = posts[indexPath.row]
+            let detailViewController = segue.destination as! PhotoDetailsViewController
+            detailViewController.post = post
+        }
+    }
+}
